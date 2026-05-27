@@ -1,0 +1,23 @@
+fastapi
+uvicorn
+streamlit
+requests
+python-multipart
+pydantic
+pytest
+pytest-asyncio
+httpx
+
+# OCR
+pytesseract
+Pillow
+pdf2image
+
+# Database
+SQLAlchemy
+pymysql
+cryptography
+
+# LLM & Config
+openai
+python-dotenv

@@ -1,0 +1,1009 @@
+2026-05-26 19:37:29 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:37:44 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:40:04 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:40:04 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:40:04 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 19:44:42 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:44:43 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:44:43 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 19:44:43 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 19:46:14 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:46:55 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:49:14 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:49:14 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:49:14 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 19:49:14 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 19:52:25 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 19:52:26 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:52:26 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:52:26 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 19:54:30 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:55:28 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 19:55:29 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:55:29 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:55:29 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 19:56:05 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:58:56 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:58:57 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 19:58:57 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 19:58:57 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:01:13 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:01:13 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:01:13 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 322.4 ms: OCR processing failed
+2026-05-26 20:01:13 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 323.9 ms: OCR processing failed
+2026-05-26 20:01:13 | ERROR    | app.api.routes | OCR failed: OCR processing failed
+2026-05-26 20:06:45 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:06:45 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:06:45 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 176.0 ms: OCR processing failed
+2026-05-26 20:06:45 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 176.9 ms: OCR processing failed
+2026-05-26 20:06:45 | ERROR    | app.api.routes | OCR failed: OCR processing failed
+2026-05-26 20:10:39 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:10:39 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:10:40 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:10:40 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:10:43 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:10:44 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:10:44 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:10:44 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:12:28 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:12:28 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:12:28 | INFO     | app.services.ocr_service | OCR complete for 'aadhar.jpg' – extracted 222 characters
+2026-05-26 20:12:28 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 622.3 ms
+2026-05-26 20:12:28 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:12:28 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:12:28 | INFO     | app.services.extraction_service | Classified 'aadhar.jpg' as 'unknown'
+2026-05-26 20:12:28 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:12:28 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-26 20:12:28 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:12:28 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.0 ms
+2026-05-26 20:12:28 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=1 for 'aadhar.jpg'
+2026-05-26 20:12:28 | INFO     | app.services.extraction_service | ← process_document() succeeded in 658.5 ms
+2026-05-26 20:16:13 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:16:14 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:16:14 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:16:15 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:16:15 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:16:15 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:16:15 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:16:15 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:18:14 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:18:14 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:18:15 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:18:15 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 742.0 ms
+2026-05-26 20:18:15 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:18:15 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:18:15 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'unknown'
+2026-05-26 20:18:15 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:18:15 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-26 20:18:15 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:18:15 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.1 ms
+2026-05-26 20:18:15 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=2 for 'aadhar card.jpg'
+2026-05-26 20:18:15 | INFO     | app.services.extraction_service | ← process_document() succeeded in 765.5 ms
+2026-05-26 20:25:24 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:25:25 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:25:25 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:25:25 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:25:31 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:25:32 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:25:32 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:25:33 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:25:33 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:25:33 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:25:33 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:25:33 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:26:45 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:26:45 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:26:45 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:26:45 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 640.0 ms
+2026-05-26 20:26:45 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:26:45 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.0 ms
+2026-05-26 20:26:45 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:26:45 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:26:45 | INFO     | app.services.template_service | ← load_template() succeeded in 1.1 ms
+2026-05-26 20:26:45 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:26:45 | INFO     | app.services.llm_service | Calling OpenAI to fill 2 blank field(s): ['aadhaar_number', 'name']
+2026-05-26 20:26:51 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:26:51 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.414927 seconds
+2026-05-26 20:26:52 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:26:52 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.789721 seconds
+2026-05-26 20:26:54 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:26:54 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:26:54 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 8189.3 ms
+2026-05-26 20:26:54 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=3 for 'aadhar card.jpg'
+2026-05-26 20:26:54 | INFO     | app.services.extraction_service | ← process_document() succeeded in 8858.8 ms
+2026-05-26 20:28:10 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:28:10 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:28:11 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:28:11 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 657.8 ms
+2026-05-26 20:28:11 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:28:11 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:28:11 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:28:11 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:28:11 | INFO     | app.services.template_service | ← load_template() succeeded in 0.7 ms
+2026-05-26 20:28:11 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:28:11 | INFO     | app.services.llm_service | Calling OpenAI to fill 2 blank field(s): ['aadhaar_number', 'name']
+2026-05-26 20:28:12 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:28:12 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.428560 seconds
+2026-05-26 20:28:13 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:28:13 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.963361 seconds
+2026-05-26 20:28:15 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:28:15 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:28:15 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 3917.1 ms
+2026-05-26 20:28:15 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=4 for 'aadhar card.jpg'
+2026-05-26 20:28:15 | INFO     | app.services.extraction_service | ← process_document() succeeded in 4595.2 ms
+2026-05-26 20:30:48 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:30:48 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:30:49 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:30:49 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 892.1 ms
+2026-05-26 20:30:49 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:30:49 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:30:49 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:30:49 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:30:49 | INFO     | app.services.template_service | ← load_template() succeeded in 4.1 ms
+2026-05-26 20:30:49 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:30:49 | INFO     | app.services.llm_service | Calling OpenAI to fill 2 blank field(s): ['aadhaar_number', 'name']
+2026-05-26 20:30:51 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:30:51 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.491499 seconds
+2026-05-26 20:30:52 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:30:52 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.888871 seconds
+2026-05-26 20:30:53 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:30:53 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:30:53 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 3661.9 ms
+2026-05-26 20:30:53 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=5 for 'aadhar card.jpg'
+2026-05-26 20:30:53 | INFO     | app.services.extraction_service | ← process_document() succeeded in 4594.2 ms
+2026-05-26 20:33:38 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:33:39 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:33:40 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:33:40 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:33:44 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:33:45 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:33:46 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:33:46 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:33:52 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:33:53 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:33:54 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:33:54 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:33:57 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:33:58 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:33:58 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:33:58 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:33:58 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:33:59 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:33:59 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:33:59 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:42:01 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:42:02 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:42:03 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:42:03 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:42:03 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:42:04 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:42:04 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:42:04 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:43:38 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:43:38 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:43:38 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:43:38 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 717.7 ms
+2026-05-26 20:43:38 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:43:38 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:43:38 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:43:38 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:43:38 | INFO     | app.services.template_service | ← load_template() succeeded in 1.4 ms
+2026-05-26 20:43:38 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:43:38 | ERROR    | app.services.llm_service | ✗ extract_fields() raised AttributeError after 5.0 ms: 'NoneType' object has no attribute 'strip'
+2026-05-26 20:43:38 | ERROR    | app.services.extraction_service | ✗ process_document() raised AttributeError after 739.9 ms: 'NoneType' object has no attribute 'strip'
+2026-05-26 20:43:38 | ERROR    | app.api.routes | Unexpected error: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\api\routes.py", line 60, in extract_document
+    record = await process_document(file, db)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 46, in async_wrapper
+    result = await func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\extraction_service.py", line 41, in process_document
+    structured_data = extract_fields(text, template, doc_type)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 61, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\llm_service.py", line 115, in extract_fields
+    extracted = _regex_extract(text, doc_type)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\llm_service.py", line 61, in _regex_extract
+    result[field] = match.group(1).strip() if match.lastindex else match.group(0).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-05-26 20:45:23 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:45:23 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:45:24 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:45:24 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:45:25 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:45:25 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:45:25 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:45:25 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:45:47 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:45:47 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:45:47 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:45:47 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 829.2 ms
+2026-05-26 20:45:47 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:45:47 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:45:47 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:45:47 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:45:47 | INFO     | app.services.template_service | ← load_template() succeeded in 3.4 ms
+2026-05-26 20:45:47 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:45:48 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 20:45:54 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:45:54 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.493739 seconds
+2026-05-26 20:45:56 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:45:56 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.906073 seconds
+2026-05-26 20:45:57 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:45:57 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:45:57 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9800.6 ms
+2026-05-26 20:45:57 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=6 for 'aadhar card.jpg'
+2026-05-26 20:45:57 | INFO     | app.services.extraction_service | ← process_document() succeeded in 10681.5 ms
+2026-05-26 20:46:19 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:46:19 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:46:20 | INFO     | app.services.ocr_service | OCR complete for 'pan card.jpg' – extracted 79 characters
+2026-05-26 20:46:20 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 410.6 ms
+2026-05-26 20:46:20 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:46:20 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.0 ms
+2026-05-26 20:46:20 | INFO     | app.services.extraction_service | Classified 'pan card.jpg' as 'unknown'
+2026-05-26 20:46:20 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:46:20 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-26 20:46:20 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:46:20 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.0 ms
+2026-05-26 20:46:20 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=7 for 'pan card.jpg'
+2026-05-26 20:46:20 | INFO     | app.services.extraction_service | ← process_document() succeeded in 428.8 ms
+2026-05-26 20:46:31 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:46:31 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:46:31 | INFO     | app.services.ocr_service | OCR complete for 'pan card.jpg' – extracted 79 characters
+2026-05-26 20:46:31 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 404.7 ms
+2026-05-26 20:46:31 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:46:31 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.0 ms
+2026-05-26 20:46:31 | INFO     | app.services.extraction_service | Classified 'pan card.jpg' as 'unknown'
+2026-05-26 20:46:31 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:46:31 | INFO     | app.services.template_service | ← load_template() succeeded in 0.1 ms
+2026-05-26 20:46:31 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:46:31 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.0 ms
+2026-05-26 20:46:31 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=8 for 'pan card.jpg'
+2026-05-26 20:46:31 | INFO     | app.services.extraction_service | ← process_document() succeeded in 431.3 ms
+2026-05-26 20:48:37 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:48:37 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:48:37 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:48:37 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 653.2 ms
+2026-05-26 20:48:37 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:48:37 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.0 ms
+2026-05-26 20:48:37 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:48:37 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:48:37 | INFO     | app.services.template_service | ← load_template() succeeded in 1.0 ms
+2026-05-26 20:48:37 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:48:37 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 20:48:39 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:48:39 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.425123 seconds
+2026-05-26 20:48:39 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:48:39 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.902238 seconds
+2026-05-26 20:48:40 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:48:40 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:48:40 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 3182.1 ms
+2026-05-26 20:48:40 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=9 for 'aadhar card.jpg'
+2026-05-26 20:48:40 | INFO     | app.services.extraction_service | ← process_document() succeeded in 3861.5 ms
+2026-05-26 20:54:51 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:54:52 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:54:53 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:54:53 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:54:53 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:54:54 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:54:54 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:54:54 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:58:07 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 20:58:07 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 20:58:09 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 20:58:09 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1698.7 ms
+2026-05-26 20:58:09 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 20:58:09 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 20:58:09 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 20:58:09 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 20:58:09 | INFO     | app.services.template_service | ← load_template() succeeded in 2.4 ms
+2026-05-26 20:58:09 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 20:58:09 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 20:58:19 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:58:19 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.484399 seconds
+2026-05-26 20:58:20 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:58:20 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.759477 seconds
+2026-05-26 20:58:21 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 20:58:21 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 20:58:21 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 12854.1 ms
+2026-05-26 20:58:22 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=1 for 'aadhar card.jpg'
+2026-05-26 20:58:22 | INFO     | app.services.extraction_service | ← process_document() succeeded in 14631.0 ms
+2026-05-26 20:59:41 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:59:42 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:59:42 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:59:42 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 20:59:46 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 20:59:47 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 20:59:48 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 20:59:48 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 21:01:47 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 21:01:47 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 21:01:48 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 21:01:48 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1457.7 ms
+2026-05-26 21:01:48 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 21:01:48 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 21:01:48 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'unknown'
+2026-05-26 21:01:48 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 21:01:48 | INFO     | app.services.template_service | ← load_template() succeeded in 0.3 ms
+2026-05-26 21:01:48 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 21:01:48 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.0 ms
+2026-05-26 21:01:48 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=2 for 'xyzzzzzzz.jpg'
+2026-05-26 21:01:48 | INFO     | app.services.extraction_service | ← process_document() succeeded in 1538.4 ms
+2026-05-26 21:08:55 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 21:08:55 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 21:08:56 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-26 21:08:56 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1161.6 ms
+2026-05-26 21:08:56 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 21:08:56 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 21:08:56 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-26 21:08:56 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 21:08:56 | INFO     | app.services.template_service | ← load_template() succeeded in 1.3 ms
+2026-05-26 21:08:56 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 21:08:56 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 21:09:07 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 21:09:07 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.420546 seconds
+2026-05-26 21:09:08 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 21:09:08 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.810464 seconds
+2026-05-26 21:09:09 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 21:09:09 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 21:09:09 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 12843.6 ms
+2026-05-26 21:09:09 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=3 for 'aadhar card.jpg'
+2026-05-26 21:09:09 | INFO     | app.services.extraction_service | ← process_document() succeeded in 14068.9 ms
+2026-05-26 21:17:05 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 21:17:06 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 21:17:07 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 21:17:07 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 21:17:18 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 21:17:19 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 21:17:20 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 21:17:20 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 21:37:48 | INFO     | app.api.routes | Deleted record id=1
+2026-05-26 22:30:34 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:30:36 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:30:36 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:30:36 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 22:34:25 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 22:34:25 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 22:34:30 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 183 characters
+2026-05-26 22:34:30 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 5688.6 ms
+2026-05-26 22:34:30 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 22:34:30 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 22:34:30 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 22:34:30 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 22:34:30 | INFO     | app.services.template_service | ← load_template() succeeded in 1.0 ms
+2026-05-26 22:34:30 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 22:34:30 | INFO     | app.services.llm_service | Calling OpenAI to fill 4 blank field(s): ['aadhaar_number', 'dob', 'gender', 'name']
+2026-05-26 22:34:39 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:34:39 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.438905 seconds
+2026-05-26 22:34:41 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:34:41 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.902704 seconds
+2026-05-26 22:34:42 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:34:42 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 22:34:42 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 11925.3 ms
+2026-05-26 22:34:42 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=4 for 'xyzzzzzzz.jpg'
+2026-05-26 22:34:42 | INFO     | app.services.extraction_service | ← process_document() succeeded in 17664.2 ms
+2026-05-26 22:38:53 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 22:38:54 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:38:54 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:38:54 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 22:39:22 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 22:39:22 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 22:39:24 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 22:39:24 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1198.5 ms
+2026-05-26 22:39:24 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 22:39:24 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 22:39:24 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 22:39:24 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 22:39:24 | INFO     | app.services.template_service | ← load_template() succeeded in 3.0 ms
+2026-05-26 22:39:24 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 22:39:24 | INFO     | app.services.llm_service | Calling OpenAI to fill 3 blank field(s): ['aadhaar_number', 'gender', 'name']
+2026-05-26 22:39:31 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:39:31 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.447027 seconds
+2026-05-26 22:39:32 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:39:32 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.887394 seconds
+2026-05-26 22:39:33 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:39:33 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 22:39:33 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9338.7 ms
+2026-05-26 22:39:33 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=5 for 'xyzzzzzzz.jpg'
+2026-05-26 22:39:33 | INFO     | app.services.extraction_service | ← process_document() succeeded in 10615.6 ms
+2026-05-26 22:40:31 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 22:40:32 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:40:33 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:40:33 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 22:40:39 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 22:40:39 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 22:40:40 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 22:40:40 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1137.2 ms
+2026-05-26 22:40:40 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 22:40:40 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.3 ms
+2026-05-26 22:40:40 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 22:40:40 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 22:40:40 | INFO     | app.services.template_service | ← load_template() succeeded in 1.5 ms
+2026-05-26 22:40:40 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 22:40:40 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 22:40:48 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:40:48 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.380384 seconds
+2026-05-26 22:40:49 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:40:49 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.966550 seconds
+2026-05-26 22:40:50 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:40:50 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 22:40:50 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 10030.7 ms
+2026-05-26 22:40:50 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=6 for 'xyzzzzzzz.jpg'
+2026-05-26 22:40:50 | INFO     | app.services.extraction_service | ← process_document() succeeded in 11245.3 ms
+2026-05-26 22:42:16 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 22:42:17 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:42:18 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:42:18 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 22:42:38 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 22:42:38 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 22:42:39 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 22:42:40 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1110.4 ms
+2026-05-26 22:42:40 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 22:42:40 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 22:42:40 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 22:42:40 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 22:42:40 | INFO     | app.services.template_service | ← load_template() succeeded in 2.4 ms
+2026-05-26 22:42:40 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 22:42:40 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 22:42:47 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:42:47 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.490146 seconds
+2026-05-26 22:42:47 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:42:47 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.975895 seconds
+2026-05-26 22:42:49 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:42:49 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 22:42:49 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9097.1 ms
+2026-05-26 22:42:49 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=7 for 'xyzzzzzzz.jpg'
+2026-05-26 22:42:49 | INFO     | app.services.extraction_service | ← process_document() succeeded in 10404.4 ms
+2026-05-26 22:52:09 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 22:52:10 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:52:11 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:52:11 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 22:52:25 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 22:52:25 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 22:52:29 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 22:52:29 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 3683.3 ms
+2026-05-26 22:52:29 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 22:52:29 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 22:52:29 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 22:52:29 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 22:52:29 | INFO     | app.services.template_service | ← load_template() succeeded in 5.7 ms
+2026-05-26 22:52:29 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 22:52:29 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 22:52:40 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:52:40 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.449950 seconds
+2026-05-26 22:52:40 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:52:40 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.765700 seconds
+2026-05-26 22:52:42 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 22:52:42 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 22:52:42 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 12785.9 ms
+2026-05-26 22:52:42 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=8 for 'xyzzzzzzz.jpg'
+2026-05-26 22:52:42 | INFO     | app.services.extraction_service | ← process_document() succeeded in 16556.9 ms
+2026-05-26 22:54:46 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 22:54:47 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 22:54:48 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 22:54:48 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:01:07 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:01:08 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:01:09 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:01:09 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:01:40 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:01:40 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:01:42 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:01:42 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1323.6 ms
+2026-05-26 23:01:42 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:01:42 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.4 ms
+2026-05-26 23:01:42 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:01:42 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:01:42 | INFO     | app.services.template_service | ← load_template() succeeded in 4.4 ms
+2026-05-26 23:01:42 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:01:42 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 23:01:54 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:01:54 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.429789 seconds
+2026-05-26 23:01:55 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:01:55 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.838418 seconds
+2026-05-26 23:01:57 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:01:57 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:01:57 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 14869.1 ms
+2026-05-26 23:01:57 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=9 for 'xyzzzzzzz.jpg'
+2026-05-26 23:01:57 | INFO     | app.services.extraction_service | ← process_document() succeeded in 16298.2 ms
+2026-05-26 23:03:34 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:03:36 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:03:37 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:03:37 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:04:01 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:04:01 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:04:02 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:04:02 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1298.6 ms
+2026-05-26 23:04:02 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:04:02 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:04:02 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:04:02 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:04:02 | INFO     | app.services.template_service | ← load_template() succeeded in 4.8 ms
+2026-05-26 23:04:02 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:04:02 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 23:04:13 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:04:13 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.474258 seconds
+2026-05-26 23:04:14 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:04:14 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.856834 seconds
+2026-05-26 23:04:15 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:04:15 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:04:15 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 13222.3 ms
+2026-05-26 23:04:15 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=10 for 'xyzzzzzzz.jpg'
+2026-05-26 23:04:15 | INFO     | app.services.extraction_service | ← process_document() succeeded in 14592.7 ms
+2026-05-26 23:08:06 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:08:08 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:08:08 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:08:08 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:08:58 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:08:58 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:08:59 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:08:59 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 990.3 ms
+2026-05-26 23:08:59 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:08:59 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.3 ms
+2026-05-26 23:08:59 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:08:59 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:08:59 | INFO     | app.services.template_service | ← load_template() succeeded in 2.7 ms
+2026-05-26 23:08:59 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:08:59 | INFO     | app.services.llm_service | Calling OpenAI to fill 4 blank field(s): ['aadhaar_number', 'dob', 'gender', 'name']
+2026-05-26 23:09:06 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:09:06 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.387890 seconds
+2026-05-26 23:09:07 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:09:07 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.994204 seconds
+2026-05-26 23:09:08 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:09:08 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:09:08 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9487.5 ms
+2026-05-26 23:09:08 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=11 for 'xyzzzzzzz.jpg'
+2026-05-26 23:09:08 | INFO     | app.services.extraction_service | ← process_document() succeeded in 10551.7 ms
+2026-05-26 23:10:08 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:10:08 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:10:10 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:10:10 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1347.0 ms
+2026-05-26 23:10:10 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:10:10 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:10:10 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:10:10 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:10:10 | INFO     | app.services.template_service | ← load_template() succeeded in 2.6 ms
+2026-05-26 23:10:10 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:10:10 | INFO     | app.services.llm_service | Calling OpenAI to fill 4 blank field(s): ['aadhaar_number', 'dob', 'gender', 'name']
+2026-05-26 23:10:10 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:10:10 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.480255 seconds
+2026-05-26 23:10:11 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:10:11 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.815226 seconds
+2026-05-26 23:10:12 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:10:12 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:10:12 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 2590.9 ms
+2026-05-26 23:10:12 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=12 for 'xyzzzzzzz.jpg'
+2026-05-26 23:10:12 | INFO     | app.services.extraction_service | ← process_document() succeeded in 3986.1 ms
+2026-05-26 23:10:17 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:10:19 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:10:20 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:10:20 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:10:44 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:10:46 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:10:46 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:10:47 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:11:00 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:11:00 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:11:01 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:11:01 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1565.5 ms
+2026-05-26 23:11:01 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:11:01 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:11:01 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:11:01 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:11:01 | INFO     | app.services.template_service | ← load_template() succeeded in 1.3 ms
+2026-05-26 23:11:01 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:11:01 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 23:11:09 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:11:09 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.380665 seconds
+2026-05-26 23:11:10 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:11:10 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.774322 seconds
+2026-05-26 23:11:11 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:11:11 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:11:11 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9464.0 ms
+2026-05-26 23:11:11 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=13 for 'xyzzzzzzz.jpg'
+2026-05-26 23:11:11 | INFO     | app.services.extraction_service | ← process_document() succeeded in 11101.7 ms
+2026-05-26 23:17:08 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:17:10 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:17:11 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:17:11 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:17:14 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:17:14 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:17:15 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:17:15 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1530.9 ms
+2026-05-26 23:17:15 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:17:15 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:17:15 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:17:15 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:17:15 | INFO     | app.services.template_service | ← load_template() succeeded in 1.7 ms
+2026-05-26 23:17:15 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:17:15 | ERROR    | app.services.llm_service | ✗ extract_fields() raised AttributeError after 10.7 ms: 'NoneType' object has no attribute 'strip'
+2026-05-26 23:17:15 | ERROR    | app.services.extraction_service | ✗ process_document() raised AttributeError after 1567.2 ms: 'NoneType' object has no attribute 'strip'
+2026-05-26 23:17:15 | ERROR    | app.api.routes | Unexpected error: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\api\routes.py", line 60, in extract_document
+    record = await process_document(file, db)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 46, in async_wrapper
+    result = await func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\extraction_service.py", line 41, in process_document
+    structured_data = extract_fields(text, template, doc_type)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 61, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\llm_service.py", line 124, in extract_fields
+    extracted = _regex_extract(text, doc_type)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\llm_service.py", line 69, in _regex_extract
+    result[field] = matched_text.strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-05-26 23:24:19 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:24:20 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:24:21 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:24:21 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:24:38 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:24:38 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:24:40 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:24:40 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1662.9 ms
+2026-05-26 23:24:40 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:24:40 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:24:40 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:24:40 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:24:40 | INFO     | app.services.template_service | ← load_template() succeeded in 3.9 ms
+2026-05-26 23:24:40 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:24:40 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 23:24:47 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:24:47 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.477988 seconds
+2026-05-26 23:24:48 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:24:48 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.808768 seconds
+2026-05-26 23:24:49 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:24:49 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:24:49 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9654.9 ms
+2026-05-26 23:24:49 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=14 for 'xyzzzzzzz.jpg'
+2026-05-26 23:24:49 | INFO     | app.services.extraction_service | ← process_document() succeeded in 11375.8 ms
+2026-05-26 23:27:00 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:27:02 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:27:02 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:27:02 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:28:33 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:28:34 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:28:35 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:28:35 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:28:48 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:28:48 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:28:49 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:28:49 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1552.4 ms
+2026-05-26 23:28:49 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:28:49 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:28:49 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:28:49 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:28:49 | INFO     | app.services.template_service | ← load_template() succeeded in 1.5 ms
+2026-05-26 23:28:49 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:28:49 | INFO     | app.services.llm_service | Calling OpenAI to fill 4 blank field(s): ['aadhaar_number', 'dob', 'gender', 'name']
+2026-05-26 23:28:58 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:28:58 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.455306 seconds
+2026-05-26 23:28:59 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:28:59 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.834056 seconds
+2026-05-26 23:29:01 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:29:01 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:29:01 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 11167.4 ms
+2026-05-26 23:29:01 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=15 for 'xyzzzzzzz.jpg'
+2026-05-26 23:29:01 | INFO     | app.services.extraction_service | ← process_document() succeeded in 12791.7 ms
+2026-05-26 23:31:56 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:31:58 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:31:59 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:31:59 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:33:47 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:33:47 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:33:48 | INFO     | app.services.ocr_service | OCR complete for 'xyzzzzzzz.jpg' – extracted 222 characters
+2026-05-26 23:33:48 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1312.3 ms
+2026-05-26 23:33:48 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:33:48 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-26 23:33:48 | INFO     | app.services.extraction_service | Classified 'xyzzzzzzz.jpg' as 'aadhaar'
+2026-05-26 23:33:48 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:33:48 | INFO     | app.services.template_service | ← load_template() succeeded in 1.9 ms
+2026-05-26 23:33:48 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:33:48 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-26 23:33:56 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:33:56 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.498121 seconds
+2026-05-26 23:33:57 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:33:57 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.863337 seconds
+2026-05-26 23:33:58 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:33:58 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:33:58 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 9539.4 ms
+2026-05-26 23:33:58 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=16 for 'xyzzzzzzz.jpg'
+2026-05-26 23:33:58 | INFO     | app.services.extraction_service | ← process_document() succeeded in 10912.4 ms
+2026-05-26 23:34:22 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:34:22 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:34:23 | INFO     | app.services.ocr_service | OCR complete for 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg' – extracted 279 characters
+2026-05-26 23:34:23 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1026.5 ms
+2026-05-26 23:34:23 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:34:23 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 23:34:23 | INFO     | app.services.extraction_service | Classified 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg' as 'driving_licence'
+2026-05-26 23:34:23 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:34:23 | INFO     | app.services.template_service | ← load_template() succeeded in 0.4 ms
+2026-05-26 23:34:23 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:34:23 | INFO     | app.services.llm_service | Calling OpenAI to fill 2 blank field(s): ['dob', 'vehicle_class']
+2026-05-26 23:34:23 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:34:23 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.479342 seconds
+2026-05-26 23:34:24 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:34:24 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.826833 seconds
+2026-05-26 23:34:25 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:34:25 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:34:25 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 2578.2 ms
+2026-05-26 23:34:25 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=17 for 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg'
+2026-05-26 23:34:25 | INFO     | app.services.extraction_service | ← process_document() succeeded in 3658.5 ms
+2026-05-26 23:38:24 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:38:26 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:39:34 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:41:24 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:41:57 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:41:59 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:42:00 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:42:00 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:42:18 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:42:18 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:42:19 | INFO     | app.services.ocr_service | OCR complete for 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg' – extracted 279 characters
+2026-05-26 23:42:19 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 1154.3 ms
+2026-05-26 23:42:19 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-26 23:42:19 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-26 23:42:19 | INFO     | app.services.extraction_service | Classified 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg' as 'driving_licence'
+2026-05-26 23:42:19 | INFO     | app.services.template_service | → load_template() called
+2026-05-26 23:42:19 | INFO     | app.services.template_service | ← load_template() succeeded in 0.4 ms
+2026-05-26 23:42:19 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-26 23:42:19 | INFO     | app.services.llm_service | Calling OpenAI to fill 2 blank field(s): ['dob', 'vehicle_class']
+2026-05-26 23:42:28 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:42:28 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.395356 seconds
+2026-05-26 23:42:28 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:42:28 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.939911 seconds
+2026-05-26 23:42:30 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 23:42:30 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-26 23:42:30 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 10407.1 ms
+2026-05-26 23:42:30 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=18 for 'WhatsApp Image 2026-05-26 at 11.01.16 PM.jpeg'
+2026-05-26 23:42:30 | INFO     | app.services.extraction_service | ← process_document() succeeded in 11669.3 ms
+2026-05-26 23:43:20 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:43:20 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:43:20 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 74.6 ms: PDF conversion failed
+2026-05-26 23:43:20 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 80.5 ms: PDF conversion failed
+2026-05-26 23:43:20 | ERROR    | app.api.routes | OCR failed: PDF conversion failed
+2026-05-26 23:46:49 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:46:49 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:46:49 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 26.7 ms: PDF conversion failed
+2026-05-26 23:46:49 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 34.9 ms: PDF conversion failed
+2026-05-26 23:46:49 | ERROR    | app.api.routes | OCR failed: PDF conversion failed
+2026-05-26 23:54:58 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-26 23:55:00 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-26 23:55:00 | INFO     | app.main | Starting Document Extractor API…
+2026-05-26 23:55:01 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-26 23:55:09 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-26 23:55:09 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-26 23:55:09 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 812.3 ms: PDF conversion failed
+2026-05-26 23:55:10 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 840.3 ms: PDF conversion failed
+2026-05-26 23:55:10 | ERROR    | app.api.routes | OCR failed: PDF conversion failed
+2026-05-27 00:00:50 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:00:50 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:00:51 | ERROR    | app.services.ocr_service | ✗ perform_ocr() raised OCRError after 759.4 ms: PDF conversion failed
+2026-05-27 00:00:51 | ERROR    | app.services.extraction_service | ✗ process_document() raised OCRError after 764.8 ms: PDF conversion failed
+2026-05-27 00:00:51 | ERROR    | app.api.routes | OCR failed: PDF conversion failed
+2026-05-27 00:03:11 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:03:11 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:03:12 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:03:12 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 557.2 ms
+2026-05-27 00:03:12 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:03:12 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:03:12 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:03:12 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:03:12 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:03:12 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:03:12 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['vehicle_class']
+2026-05-27 00:03:16 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:03:16 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.497284 seconds
+2026-05-27 00:03:17 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:03:17 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.878810 seconds
+2026-05-27 00:03:18 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:03:18 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-27 00:03:18 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 6768.1 ms
+2026-05-27 00:03:19 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=19 for 'Screenshot 2026-05-27 000232.png'
+2026-05-27 00:03:19 | INFO     | app.services.extraction_service | ← process_document() succeeded in 7362.3 ms
+2026-05-27 00:05:38 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:05:39 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:05:40 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:05:40 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:05:59 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:05:59 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:06:00 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:06:00 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 575.5 ms
+2026-05-27 00:06:00 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:06:00 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.2 ms
+2026-05-27 00:06:00 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:06:00 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:06:00 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:06:00 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:06:00 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 3.1 ms
+2026-05-27 00:06:00 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=20 for 'Screenshot 2026-05-27 000232.png'
+2026-05-27 00:06:00 | INFO     | app.services.extraction_service | ← process_document() succeeded in 615.2 ms
+2026-05-27 00:22:33 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:22:33 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:22:34 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:22:34 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:26:06 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:26:07 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:26:07 | INFO     | app.database.db | Database engine created successfully
+2026-05-27 00:26:07 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:26:07 | INFO     | app.database.db | Database tables initialised successfully (MySQL: localhost/document_extractor)
+2026-05-27 00:26:33 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:26:33 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:26:33 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:26:33 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 575.0 ms
+2026-05-27 00:26:33 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:26:33 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:26:33 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:26:33 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:26:33 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:26:33 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:26:33 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 4.9 ms
+2026-05-27 00:26:33 | ERROR    | app.services.extraction_service | ✗ process_document() raised AttributeError after 593.0 ms: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:26:33 | ERROR    | app.api.routes | Unexpected error: 'str' object has no attribute '_sa_instance_state'
+Traceback (most recent call last):
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\api\routes.py", line 60, in extract_document
+    record = await process_document(file, db)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 46, in async_wrapper
+    result = await func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\extraction_service.py", line 44, in process_document
+    record = ExtractionRecord(
+  File "<string>", line 4, in __init__
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 596, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 594, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\decl_base.py", line 2182, in _declarative_constructor
+    setattr(self, k, kwargs[k])
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 540, in __set__
+    self.impl.set(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1477, in set
+    value = self.fire_replace_event(state, dict_, value, old, initiator)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1516, in fire_replace_event
+    value = fn(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 2171, in emit_backref_from_scalar_set_event
+    instance_state(child),
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:26:37 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:26:37 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:26:38 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:26:38 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 520.0 ms
+2026-05-27 00:26:38 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:26:38 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:26:38 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:26:38 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:26:38 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:26:38 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:26:38 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 0.1 ms
+2026-05-27 00:26:38 | ERROR    | app.services.extraction_service | ✗ process_document() raised AttributeError after 527.9 ms: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:26:38 | ERROR    | app.api.routes | Unexpected error: 'str' object has no attribute '_sa_instance_state'
+Traceback (most recent call last):
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\api\routes.py", line 60, in extract_document
+    record = await process_document(file, db)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 46, in async_wrapper
+    result = await func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\extraction_service.py", line 44, in process_document
+    record = ExtractionRecord(
+  File "<string>", line 4, in __init__
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 596, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 594, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\decl_base.py", line 2182, in _declarative_constructor
+    setattr(self, k, kwargs[k])
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 540, in __set__
+    self.impl.set(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1477, in set
+    value = self.fire_replace_event(state, dict_, value, old, initiator)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1516, in fire_replace_event
+    value = fn(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 2171, in emit_backref_from_scalar_set_event
+    instance_state(child),
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:26:58 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:26:58 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:26:59 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:26:59 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:27:17 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:27:17 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:27:17 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:27:17 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 510.4 ms
+2026-05-27 00:27:17 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:27:17 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:27:17 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:27:17 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:27:17 | INFO     | app.services.template_service | ← load_template() succeeded in 0.1 ms
+2026-05-27 00:27:17 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:27:17 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 2.6 ms
+2026-05-27 00:27:17 | ERROR    | app.services.extraction_service | ✗ process_document() raised AttributeError after 520.3 ms: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:27:17 | ERROR    | app.api.routes | Unexpected error: 'str' object has no attribute '_sa_instance_state'
+Traceback (most recent call last):
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\api\routes.py", line 60, in extract_document
+    record = await process_document(file, db)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\utils\logger.py", line 46, in async_wrapper
+    result = await func(*args, **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\app\services\extraction_service.py", line 44, in process_document
+    record = ExtractionRecord(
+  File "<string>", line 4, in __init__
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 596, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\state.py", line 594, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\decl_base.py", line 2182, in _declarative_constructor
+    setattr(self, k, kwargs[k])
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 540, in __set__
+    self.impl.set(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1477, in set
+    value = self.fire_replace_event(state, dict_, value, old, initiator)
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1516, in fire_replace_event
+    value = fn(
+  File "C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 2171, in emit_backref_from_scalar_set_event
+    instance_state(child),
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+2026-05-27 00:27:37 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:27:38 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:27:38 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:27:38 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:27:52 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:27:52 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:27:53 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:27:53 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 546.7 ms
+2026-05-27 00:27:53 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:27:53 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:27:53 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:27:53 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:27:53 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:27:53 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:27:53 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 4.5 ms
+2026-05-27 00:27:53 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=21 for 'Screenshot 2026-05-27 000232.png'
+2026-05-27 00:27:53 | INFO     | app.services.extraction_service | ← process_document() succeeded in 580.5 ms
+2026-05-27 00:30:58 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:30:59 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:30:59 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:30:59 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:32:26 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:32:26 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:32:27 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:32:27 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:32:58 | INFO     | app.main | Shutting down Document Extractor API.
+2026-05-27 00:32:59 | INFO     | app.database.db | Database URL configured for host=localhost db=document_extractor
+2026-05-27 00:32:59 | INFO     | app.main | Starting Document Extractor API…
+2026-05-27 00:32:59 | INFO     | app.database.db | Database tables initialised (MySQL: localhost/document_extractor)
+2026-05-27 00:33:28 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:33:28 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:33:29 | INFO     | app.services.ocr_service | OCR complete for 'Screenshot 2026-05-27 000232.png' – extracted 643 characters
+2026-05-27 00:33:29 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 588.5 ms
+2026-05-27 00:33:29 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:33:29 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 1.4 ms
+2026-05-27 00:33:29 | INFO     | app.services.extraction_service | Classified 'Screenshot 2026-05-27 000232.png' as 'driving_licence'
+2026-05-27 00:33:29 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:33:29 | INFO     | app.services.template_service | ← load_template() succeeded in 0.2 ms
+2026-05-27 00:33:29 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:33:29 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 4.6 ms
+2026-05-27 00:33:29 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=22 for 'Screenshot 2026-05-27 000232.png'
+2026-05-27 00:33:29 | INFO     | app.services.extraction_service | ← process_document() succeeded in 634.7 ms
+2026-05-27 00:33:59 | INFO     | app.services.extraction_service | → process_document() called
+2026-05-27 00:33:59 | INFO     | app.services.ocr_service | → perform_ocr() called
+2026-05-27 00:33:59 | INFO     | app.services.ocr_service | OCR complete for 'aadhar card.jpg' – extracted 222 characters
+2026-05-27 00:33:59 | INFO     | app.services.ocr_service | ← perform_ocr() succeeded in 665.7 ms
+2026-05-27 00:33:59 | INFO     | app.services.classifier_service | → classify_document() called
+2026-05-27 00:33:59 | INFO     | app.services.classifier_service | ← classify_document() succeeded in 0.1 ms
+2026-05-27 00:33:59 | INFO     | app.services.extraction_service | Classified 'aadhar card.jpg' as 'aadhaar'
+2026-05-27 00:33:59 | INFO     | app.services.template_service | → load_template() called
+2026-05-27 00:33:59 | INFO     | app.services.template_service | ← load_template() succeeded in 0.9 ms
+2026-05-27 00:33:59 | INFO     | app.services.llm_service | → extract_fields() called
+2026-05-27 00:33:59 | INFO     | app.services.llm_service | Calling OpenAI to fill 1 blank field(s): ['aadhaar_number']
+2026-05-27 00:34:04 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:34:04 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.404890 seconds
+2026-05-27 00:34:05 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:34:05 | INFO     | openai._base_client | Retrying request to /chat/completions in 0.941247 seconds
+2026-05-27 00:34:06 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-27 00:34:06 | WARNING  | app.services.llm_service | LLM extraction skipped (OpenAI API call failed). Using regex-only result.
+2026-05-27 00:34:06 | INFO     | app.services.llm_service | ← extract_fields() succeeded in 6423.4 ms
+2026-05-27 00:34:06 | INFO     | app.services.extraction_service | Saved ExtractionRecord id=23 for 'aadhar card.jpg'
+2026-05-27 00:34:06 | INFO     | app.services.extraction_service | ← process_document() succeeded in 7110.3 ms

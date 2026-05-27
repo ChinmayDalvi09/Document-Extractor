@@ -1,0 +1,6 @@
+{
+    "invoice_number": "Invoice / Bill number",
+    "date":           "Invoice date (DD/MM/YYYY)",
+    "total_amount":   "Grand total / amount due",
+    "vendor_name":    "Name of the vendor / supplier"
+}

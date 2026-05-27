@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.8, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Chinmay Pratap Dalvi\OneDrive\Desktop\document_extractor\document_extractor
+plugins: anyio-4.13.0, asyncio-1.4.0
+asyncio: mode=strict, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 5 items
+
+tests/test_api.py::test_health_check PASSED                              [ 20%]
+tests/test_api.py::test_extract_with_image PASSED                        [ 40%]
+tests/test_api.py::test_unsupported_file_type PASSED                     [ 60%]
+tests/test_api.py::test_get_records PASSED                               [ 80%]
+tests/test_api.py::test_get_nonexistent_record PASSED                    [100%]
+
+============================== 5 passed in 1.04s ==============================

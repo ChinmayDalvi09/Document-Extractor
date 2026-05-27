@@ -1,0 +1,6 @@
+{
+    "license_number": "Full driving licence number",
+    "name":           "Name of the licence holder",
+    "dob":            "Date of birth (DD/MM/YYYY)",
+    "vehicle_class":  "Class / category of vehicle permitted"
+}

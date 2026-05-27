@@ -1,0 +1,6 @@
+{
+    "passport_number": "Passport number (e.g. A1234567)",
+    "name":            "Full name (Surname + Given Names)",
+    "nationality":     "Nationality country name",
+    "expiry_date":     "Date of expiry (DD/MM/YYYY)"
+}
